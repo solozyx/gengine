@@ -33,6 +33,7 @@ rule "测试" "测试描述"  salience 0
 begin
 		// 重命名函数 测试; @name represent the rule name "测试"
 		Sout(@name)
+		Sout(@desc)
 		// 普通函数 测试
 		Hello()
 		//结构提方法 测试
